@@ -1,0 +1,19 @@
+{
+    "name": "mmxcx/host1.loc",
+    "authors": [
+        {
+            "name": "Mark",
+            "email": "g5056866@gmail.com"
+        }
+    ],
+    "require": {
+        "colshrapnel/safemysql": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/core",
+            "Models\\": "src/models"
+        }
+    },
+    "description": "Api"
+}
